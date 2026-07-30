@@ -45,7 +45,7 @@
         status.setAttribute("role", "status");
         status.textContent =
           "Thank you. This proof build is not connected to a live form endpoint yet, " +
-          "so nothing was sent. Please call (910) 555-0100 to reach the office.";
+          "so nothing was sent. Please call (910) 262-4478 to reach the office.";
         status.scrollIntoView({ block: "center" });
       }
     });
