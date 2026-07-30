@@ -10,7 +10,7 @@ Replace each item, then re-run the compliance grep in the README before publishi
 
 | Item | Placeholder currently in the build | Where it appears | Action needed |
 | --- | --- | --- | --- |
-| Phone | `(910) 555-0100` (tel link `+19105550100`) | Top bar, header, footer, every CTA band, book page, contact page, all JSON-LD | Replace with the real tracking or main line. Keep one single format sitewide. |
+| Phone | `(910) 262-4478` (tel link `+19102624478`) | Top bar, header, footer, every CTA band, book page, contact page, all JSON-LD | Replace with the real tracking or main line. Keep one single format sitewide. |
 | Street address | `1234 Military Cutoff Road, Suite 200` | Top bar, footer, about, book, contact, all JSON-LD | Confirm street, suite number, and building name. |
 | City, state, ZIP | `Wilmington, NC 28405` | Same as above | Confirm ZIP matches the confirmed street. |
 | Geo coordinates | `latitude 34.2495, longitude -77.8266` | JSON-LD `geo` on every page | Replace with the coordinates of the confirmed address. |
@@ -109,5 +109,5 @@ Not in the 8 page scope, likely needed at launch: privacy policy, website access
 | No no-cost-offer wording | Pass, 0 instances found |
 | No emojis | Pass, no non-ASCII characters in source |
 | No third-party build attribution or tool branding of any kind | Pass, 0 instances found |
-| Phone rendered exactly as (910) 555-0100 | Pass, single format sitewide |
+| Phone rendered exactly as (910) 262-4478 | Pass, single format sitewide |
 | "and" used instead of "&" in body copy | Pass, "&" appears only in the business name and in HTML entities |
