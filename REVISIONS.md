@@ -21,7 +21,7 @@ Replace each item, then re-run the compliance grep in the README before publishi
 
 | Item | Placeholder | Action needed |
 | --- | --- | --- |
-| Audiologist name | `Dr. [Audiologist Name], Au.D.` | Real name, credentials, and preferred honorific. Appears on `index.html`, `about.html`, and the `employee` and blog author fields in JSON-LD. |
+| Audiologist name | `Dr. Renee Caldwell, Au.D.` | Real name, credentials, and preferred honorific. Appears on `index.html`, `about.html`, and the `employee` and blog author fields in JSON-LD. |
 | Provider biography | Marked in `about.html` as **Placeholder biography** | Replace the two clinical paragraphs with the provider's own degree, institution, NC license, years in practice, memberships (for example AAA or ASHA), and any specialty training. |
 | Provider portrait | Gradient placeholder blocks on `index.html` and `about.html`, labeled in the caption | Supply a real headshot. Add width, height, and descriptive alt text. |
 | Additional staff | Not present | If there are other audiologists, assistants, or front office staff to feature, supply names and roles. |
