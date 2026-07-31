@@ -31,6 +31,38 @@
     years[i].textContent = now;
   }
 
+  /* Patient Portal Mock Logic */
+  var loginForm = document.getElementById("login-form");
+  var portalLogin = document.getElementById("portal-login");
+  var portalContent = document.getElementById("portal-content");
+  var logoutBtn = document.getElementById("logout-btn");
+  var loginError = document.getElementById("login-error");
+
+  if (loginForm && portalLogin && portalContent) {
+    loginForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("email").value;
+      var pass = document.getElementById("password").value;
+
+      // Mock authentication for proof-of-concept
+      if (email.length > 3 && pass === "password") {
+        portalLogin.hidden = true;
+        portalContent.hidden = false;
+        loginError.hidden = true;
+      } else {
+        loginError.hidden = false;
+      }
+    });
+
+    if (logoutBtn) {
+      logoutBtn.addEventListener("click", function () {
+        portalLogin.hidden = false;
+        portalContent.hidden = true;
+        loginForm.reset();
+      });
+    }
+  }
+
   /* Form handling placeholder.
      No backend is connected on this proof build, so submissions are
      intercepted and a confirmation message is shown instead.
