@@ -35,7 +35,7 @@ python3 -m http.server 8099
 
 Defined as CSS custom properties at the top of `assets/css/site.css`.
 
-- **Palette:** deep navy `#0a2540` through mid blue `#1d6fae` for structure and trust, soft teal `#2a9aa1` as the single accent, warm gray `#f7f5f2` for section separation, white for surfaces. Body text `#17232e` on white clears WCAG AA comfortably; secondary text `#41545f` clears AA at body size.
+- **Palette:** deep navy `#0a2540` through mid blue `#1d6fae` for structure and trust, soft teal `#006064` as the single accent, warm gray `#f7f5f2` for section separation, white for surfaces. Body text `#17232e` on white clears WCAG AA comfortably; secondary text `#41545f` clears AA at body size.
 - **Type:** Source Serif 4 for headings (warmth and clinical credibility), Inter for body and UI. Base size is 18px with a 1.75 line height, chosen for an audience largely over 55.
 - **Spacing:** a single step scale from 0.25rem to 6rem. Sections use the two largest steps.
 - **Motion:** transitions only, capped at 180ms, plus a `prefers-reduced-motion` override that disables them.
