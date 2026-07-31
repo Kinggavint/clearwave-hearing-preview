@@ -11,8 +11,8 @@ Replace each item, then re-run the compliance grep in the README before publishi
 | Item | Placeholder currently in the build | Where it appears | Action needed |
 | --- | --- | --- | --- |
 | Phone | `(910) 262-4478` (tel link `+19102624478`) | Top bar, header, footer, every CTA band, book page, contact page, all JSON-LD | Replace with the real tracking or main line. Keep one single format sitewide. |
-| Street address | `1234 Military Cutoff Road, Suite 200` | Top bar, footer, about, book, contact, all JSON-LD | Confirm street, suite number, and building name. |
-| City, state, ZIP | `Wilmington, NC 28405` | Same as above | Confirm ZIP matches the confirmed street. |
+| Street address | `5710 Oleander Drive, Suite 110` | Top bar, footer, about, book, contact, all JSON-LD | Confirm street, suite number, and building name. |
+| City, state, ZIP | `Wilmington, NC 28403` | Same as above | Confirm ZIP matches the confirmed street. |
 | Geo coordinates | `latitude 34.2495, longitude -77.8266` | JSON-LD `geo` on every page | Replace with the coordinates of the confirmed address. |
 | Email | `info@clearwavehearing.com` | Footer, contact page, JSON-LD | Confirm the monitored inbox. |
 | Google Maps embed | Query string built from the placeholder address on `contact.html` | Contact page map iframe and the Google Maps link | Swap to the verified Google Business Profile place ID embed once the profile is claimed. |
